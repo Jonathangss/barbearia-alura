@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contato Alura</title>
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <a href="index.html"><img id="logo" src="imagem/favicon_io/esse.jpg" alt=""></a>
+            <a href="index.html">
+                <p id="titulo">Barbearia Alura</p>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html" target="_self">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome">
+    
+            <label for="email">Email</label>
+            <input type="text" id="email">
+    
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+           
+            <label for="comentario">Escreva seu comentário</label>
+            <textarea name="escreva seu comentario" id="comentario" cols="69" rows="10"></textarea>
+           
+            <div>
+                <p>Como prefere o nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+                <label for="radio-whatsapp">Whatsapp</label>
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                <label for="radio-telefone">Telefone</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+            </div>
+                <label for="aceitar-contato">Gostaria de receber novidades da Barbearia?</label>
+                <input type="checkbox" value="true" id="aceitar-contato">
+            <button class="button">Enviar</button>
+        </form>
+    </main>
+     <footer>
+        <img src="barber/imagem/favicon_io/android-chrome-192x192 branco.png" alt="logo-branco">
+        <p class="copyright"> &copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
+</body>
